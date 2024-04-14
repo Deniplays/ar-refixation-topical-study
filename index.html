@@ -22,29 +22,50 @@
 </style>
 
 <!-- rawgithack development URL -->
-<script src='https://raw.githack.com/Deniplays/ar-refixation-topical-study/develop/js/aframe-ar-nft.js'></script>
+<script src="https://raw.githack.com/Deniplays/ar-refixation-topical-study/develop/js/aframe-ar-nft.js"></script>
 
-<body style='margin : 0px; overflow: hidden;'>
-   <!-- minimal loader shown until image descriptors are loaded -->
+<body style="margin: 0px; overflow: hidden">
+  <!-- minimal loader shown until image descriptors are loaded -->
   <div class="arjs-loader">
     <div>Loading, please wait...</div>
   </div>
-    <a-scene
-        vr-mode-ui='enabled: false;'
-        renderer="logarithmicDepthBuffer: true; precision: medium;"
-        embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
-
-        <!-- use rawgithack to retrieve the correct url for nft marker (see 'pinball' below) -->
-        <a-nft
-            type='nft' url='https://raw.githack.com/Deniplays/ar-refixation-topical-study/develop/trex/trex-image/trex'
-            smooth='true' smoothCount='10' smoothTolerance='0.01' smoothThreshold='5'>
-            <a-entity
-                gltf-model='./trex/scene.gltf'
-                scale="5 5 5"
-                position="150 300 -100"
-                >
-            </a-entity>
-        </a-nft>
-		<a-entity camera></a-entity>
-    </a-scene>
+  <a-scene
+    vr-mode-ui="enabled: false;"
+    renderer="logarithmicDepthBuffer: true; precision: medium;"
+    embedded
+    arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
+  >
+    <!-- use rawgithack to retrieve the correct url for nft marker (see 'pinball' below) -->
+    <a-nft
+      type="nft"
+      url="https://raw.githack.com/Deniplays/ar-refixation-topical-study/develop/trex/trex-image/trex"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance="0.01"
+      smoothThreshold="5"
+    >
+      <a-entity
+        gltf-model="./trex/scene.gltf"
+        scale="5 5 5"
+        position="150 300 -100"
+      >
+      </a-entity>
+    </a-nft>
+    <a-nft
+      type="nft"
+      url="https://raw.githack.com/Deniplays/ar-refixation-topical-study/develop/topography-surface/topography-surface-image/topography-surface"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance="0.01"
+      smoothThreshold="5"
+    >
+      <a-entity
+        gltf-model="./topography-surface/scene.gltf"
+        scale="5 5 5"
+        position="150 300 -100"
+      >
+      </a-entity>
+    </a-nft>
+    <a-entity camera></a-entity>
+  </a-scene>
 </body>
