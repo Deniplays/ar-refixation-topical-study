@@ -22,7 +22,8 @@
 				11,
 				12,
 				13,
-				14
+				14,
+				15
 			]
 		}
 	],
@@ -295,6 +296,21 @@
 				59.576454162597656,
 				17.287555694580078,
 				-21.172992706298828
+			]
+		},
+		{
+			"mesh":15,
+			"name":"Text.006",
+			"rotation":[
+				0.7184498906135559,
+				0,
+				0,
+				0.6955786943435669
+			],
+			"translation":[
+				13.576454162597656,
+				39.28755569458008,
+				10.827007293701172
 			]
 		}
 	],
@@ -1936,6 +1952,20 @@
 				"metallicFactor":0,
 				"roughnessFactor":0.5
 			}
+		},
+		{
+			"doubleSided":true,
+			"name":"Material.008",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.0031425103079527617,
+					0,
+					0.8002434968948364,
+					1
+				],
+				"metallicFactor":0,
+				"roughnessFactor":0.5
+			}
 		}
 	],
 	"meshes":[
@@ -3112,6 +3142,20 @@
 					},
 					"indices":408,
 					"material":116
+				}
+			]
+		},
+		{
+			"name":"Text.007",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":409,
+						"NORMAL":410,
+						"TEXCOORD_0":411
+					},
+					"indices":412,
+					"material":117
 				}
 			]
 		}
@@ -6800,6 +6844,40 @@
 			"componentType":5123,
 			"count":3225,
 			"type":"SCALAR"
+		},
+		{
+			"bufferView":409,
+			"componentType":5126,
+			"count":91,
+			"max":[
+				11.862000465393066,
+				0,
+				0
+			],
+			"min":[
+				0.22500000894069672,
+				0,
+				-2.0460000038146973
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":410,
+			"componentType":5126,
+			"count":91,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":411,
+			"componentType":5126,
+			"count":91,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":412,
+			"componentType":5123,
+			"count":237,
+			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
@@ -9256,11 +9334,35 @@
 			"byteLength":6450,
 			"byteOffset":1403288,
 			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":1092,
+			"byteOffset":1409740,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":1092,
+			"byteOffset":1410832,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":728,
+			"byteOffset":1411924,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":474,
+			"byteOffset":1412652,
+			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":1409740,
+			"byteLength":1413128,
 			"uri":"Combined%20Surface.bin"
 		}
 	]
