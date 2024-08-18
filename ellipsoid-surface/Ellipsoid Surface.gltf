@@ -17,13 +17,13 @@
 			"mesh":0,
 			"name":"Sphere",
 			"scale":[
-				1,
-				1,
-				1.4209206104278564
+				12.576175689697266,
+				12.576175689697266,
+				17.869747161865234
 			],
 			"translation":[
 				0,
-				1.7955420017242432,
+				12.114740371704102,
 				0
 			]
 		}
@@ -67,7 +67,7 @@
 		{
 			"mimeType":"image/png",
 			"name":"Ellipsoidal Surface",
-			"uri":"Ellipsoidal%20Surface/Ellipsoidal%20Surface.png"
+			"uri":"Ellipsoidal%20Surface.png"
 		}
 	],
 	"accessors":[
